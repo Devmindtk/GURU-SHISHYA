@@ -337,9 +337,9 @@ if($_SESSION['user']){
     </div>
   </div>
 </div>
-<hr style="margin-top:50px;"></hr>
-<div class="container my-2">
-<div class="table-responsive "style="margin-left:100px;background:#f0efef;padding:20px;">
+<hr style="margin-top:90px;"></hr>
+<div class="container my-5">
+<div class="table-responsive "style="margin-left:150px;background:#f0efef;padding:20px;">
 <table class="table table-hover  my-3" id="myTable"style="background:white;border:0;padding:10px;">
   <thead>
   <tr>
@@ -431,7 +431,7 @@ $(document).ready( function () {
 $(document).ready( function () {
    
     $('#myTable').dataTable( {
-  "lengthMenu": [5,10, 20,35,50, 75, 100 ],
+  "lengthMenu": [7,10, 20,35,50, 75, 100 ],
         
         "ordering": false,
         "info":     false
